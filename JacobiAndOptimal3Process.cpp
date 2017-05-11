@@ -69,9 +69,9 @@ void IterMeth(double *f, double *x, double *xx, double *xxx, int n,double alpha)
 	g1=0;
 	
 
-	for(i=1; i<n; i++)
+	for(i=0; i<=n; i++)
 	{
-		for(j=1; j<n; j++)
+		for(j=0; j<=n; j++)
 		{
 			xxx[i*(n+1)+j]=alpha;
 			xx[i*(n+1)+j]=alpha;
